@@ -1,0 +1,24 @@
+name: "ssh_tunnel"
+description: "Simple SSH tunnel for self hosting"
+version: "1.0.0"
+slug: "ssh_tunnel"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  user: null
+  password: null
+  remote: null
+  remote_port: 8123
+  local_port: 8123
+schema:
+  user: str
+  password: str
+  remote: str
+  remote_port: str
+  local_port: str
+
